@@ -1,0 +1,17 @@
+{
+  "name": "facebook-autolike-new",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "cdw1",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "moment": "^2.25.3",
+    "node-cron": "^2.0.3",
+    "node-fetch": "^2.6.0"
+  }
+}

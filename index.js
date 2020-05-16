@@ -34,7 +34,7 @@ const postLikeStatus = (POST_ID) => new Promise((resolve, reject) => {
 
 ;(async () => {
   try {
-    console.log(`.. [${moment().format('HH:MM:SS')}] Cron is running every 15 minutes...`.cyan)
+    console.log(`.. [${moment().format('HH:MM:SS')}] Cron is running every 5 minutes...`.cyan)
     cron.schedule('*/5 * * * *', async function() {
       let resGFP = await getFriendPost()
       if (resGFP.status) {
